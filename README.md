@@ -16,3 +16,5 @@ GET /attendance/{id}/
 GET/grades/
 
 GET/grades/{id}/
+
+GET/students/
