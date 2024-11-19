@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+</head>
+<body>
+    <h2>Welcome, {{ student.name }}</h2>
+    <p>Email: {{ student.email }}</p>
+    <p>Date of Birth: {{ student.dob }}</p>
+
+    <h3>Your Courses</h3>
+    <ul>
+        {% for course in courses %}
+            <li>{{ course.name }} - {{ course.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Your Grades</h3>
+    <ul>
+        {% for grade in grades %}
+            <li>{{ grade.course.name }} - Grade: {{ grade.grade }} ({{ grade.date }})</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Your Attendance</h3>
+    <ul>
+        {% for attendance in attendance_records %}
+            <li>{{ attendance.course.name }} - Status: {{ attendance.status }} ({{ attendance.date }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

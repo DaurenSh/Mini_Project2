@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration</title>
+    <script>
+        async function checkRoleAndLoadForm() {
+            // Получаем access токен из localStorage
+            const token = localStorage.getItem('access');
+            if (!token) {
+                alert("Вы не авторизованы. Пожалуйста, войдите в систему.");
+                window.location.href = '/auth/login/';  // Перенаправление на страницу входа
+                return;
+            }
+
+            // Проверка роли пользователя через API
+            try {
+                const response = await fetch('/students/check-role/', {
+                    method: 'GET',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+                if (data.has_permission) {
+                    document.getElementById('registration-form').style.display = 'block';
+                } else {
+                    alert("У вас нет доступа к этой странице.");
+                    window.location.href = '/';  // Перенаправление на главную страницу
+                }
+            } catch (error) {
+                console.error("Ошибка при проверке роли пользователя:", error);
+                alert("Не удалось проверить вашу роль. Пожалуйста, попробуйте снова.");
+                window.location.href = '/';
+            }
+        }
+
+        // Загружаем форму регистрации только если пользователь имеет доступ
+        window.onload = checkRoleAndLoadForm;
+    </script>
+</head>
+<body>
+    <h2>Register as a Student</h2>
+    <div id="registration-form" style="display: none;">
+        <form method="post" action="{% url 'student_register' %}">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>

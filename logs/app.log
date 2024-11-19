@@ -1,0 +1,307 @@
+INFO 2024-11-15 16:43:40,067 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:44:55,706 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\users\views.py changed, reloading.
+INFO 2024-11-15 16:44:56,221 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:46:22,310 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\attendance\views.py changed, reloading.
+INFO 2024-11-15 16:46:22,835 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:46:46,228 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\attendance\views.py changed, reloading.
+INFO 2024-11-15 16:46:46,717 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:47:06,983 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\views.py changed, reloading.
+INFO 2024-11-15 16:47:07,470 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:47:15,248 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\views.py changed, reloading.
+INFO 2024-11-15 16:47:15,767 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:47:25,578 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\views.py changed, reloading.
+INFO 2024-11-15 16:47:26,053 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 16:48:29,457 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\courses\views.py changed, reloading.
+INFO 2024-11-15 16:48:29,956 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:02:14,601 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\views.py changed, reloading.
+INFO 2024-11-15 17:02:15,113 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:04:25,515 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\courses\views.py changed, reloading.
+INFO 2024-11-15 17:04:25,992 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:05:36,704 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\courses\views.py changed, reloading.
+INFO 2024-11-15 17:05:37,173 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:06:53,736 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\students\views.py changed, reloading.
+INFO 2024-11-15 17:06:54,220 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-15 17:07:13,733 log Unauthorized: /students/
+WARNING 2024-11-15 17:07:13,733 basehttp "GET /students/ HTTP/1.1" 401 183
+INFO 2024-11-15 17:07:24,500 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+INFO 2024-11-15 17:07:30,397 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+INFO 2024-11-15 17:07:54,290 basehttp "GET /students/ HTTP/1.1" 200 282
+WARNING 2024-11-15 17:08:29,116 log Bad Request: /students/
+WARNING 2024-11-15 17:08:29,116 basehttp "POST /students/ HTTP/1.1" 400 39
+WARNING 2024-11-15 17:09:50,780 log Not Found: /
+WARNING 2024-11-15 17:09:50,780 basehttp "GET / HTTP/1.1" 404 2920
+WARNING 2024-11-15 17:09:50,827 log Not Found: /favicon.ico
+WARNING 2024-11-15 17:09:50,828 basehttp "GET /favicon.ico HTTP/1.1" 404 2971
+WARNING 2024-11-15 17:09:57,809 log Unauthorized: /students/register/
+WARNING 2024-11-15 17:09:57,810 basehttp "GET /students/register/ HTTP/1.1" 401 5253
+INFO 2024-11-15 17:09:57,820 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,820 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,821 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,823 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,824 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,826 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,826 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,826 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,827 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,827 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,827 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 304 0
+INFO 2024-11-15 17:09:57,830 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+WARNING 2024-11-15 17:10:22,389 log Not Found: /register/
+WARNING 2024-11-15 17:10:22,389 basehttp "GET /register/ HTTP/1.1" 404 2965
+INFO 2024-11-15 17:10:39,113 basehttp "GET /students/login HTTP/1.1" 301 0
+WARNING 2024-11-15 17:10:39,118 log Unauthorized: /students/login/
+WARNING 2024-11-15 17:10:39,119 basehttp "GET /students/login/ HTTP/1.1" 401 5238
+INFO 2024-11-15 17:11:05,281 views User on page login.html
+INFO 2024-11-15 17:11:05,301 basehttp "GET /auth/login/ HTTP/1.1" 200 1678
+INFO 2024-11-15 17:11:08,994 views User on page register.html
+INFO 2024-11-15 17:11:09,011 basehttp "GET /auth/register/ HTTP/1.1" 200 1976
+INFO 2024-11-15 17:11:21,710 basehttp "POST /auth/users/ HTTP/1.1" 201 55
+INFO 2024-11-15 17:11:23,061 views User on page login.html
+INFO 2024-11-15 17:11:23,062 basehttp "GET /auth/login/ HTTP/1.1" 200 1678
+INFO 2024-11-15 17:12:29,778 views Student created: test2, Email: teststudent2@gmail.com, User: test2
+INFO 2024-11-15 17:12:29,779 basehttp "POST /students/ HTTP/1.1" 201 118
+INFO 2024-11-15 17:19:22,936 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:19:42,007 basehttp "GET /api/docs/swagger/ HTTP/1.1" 200 4661
+INFO 2024-11-15 17:19:42,797 basehttp "GET /api/schema/ HTTP/1.1" 200 99538
+WARNING 2024-11-15 17:36:13,029 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:36:13,928 log Unauthorized: /attendance/
+ERROR 2024-11-15 17:38:06,036 log Internal Server Error: /attendance/
+Traceback (most recent call last):
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\viewsets.py", line 124, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 497, in dispatch
+    self.initial(request, *args, **kwargs)
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 415, in initial
+    self.check_permissions(request)
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\.venv\Lib\site-packages\rest_framework\views.py", line 332, in check_permissions
+    if not permission.has_permission(request, self):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Dauren\PycharmProjects\Mini_Project_2\users\permissions.py", line 17, in has_permission
+    return request.user.is_authenticated and (request.user.role.name == 'Teacher' or request.user.role.name == 'Admin')
+                                              ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'name'
+WARNING 2024-11-15 17:38:06,680 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:40:11,830 log Bad Request: /attendance/
+WARNING 2024-11-15 17:40:12,421 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:41:07,911 log Bad Request: /attendance/
+WARNING 2024-11-15 17:41:08,502 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:44:08,319 log Bad Request: /attendance/
+WARNING 2024-11-15 17:44:08,908 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:45:48,352 log Bad Request: /attendance/
+WARNING 2024-11-15 17:45:48,946 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:47:33,533 log Bad Request: /attendance/
+WARNING 2024-11-15 17:47:34,133 log Unauthorized: /attendance/
+INFO 2024-11-15 17:49:53,403 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 17:49:54,000 log Unauthorized: /attendance/
+INFO 2024-11-15 17:50:07,544 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:50:39,081 basehttp "GET /students/ HTTP/1.1" 200 401
+INFO 2024-11-15 17:50:49,667 basehttp "GET /attendance/ HTTP/1.1" 200 193
+INFO 2024-11-15 17:52:03,520 views Attendance marked: Student Dauren, Course Math 101, Status Present
+INFO 2024-11-15 17:52:03,521 basehttp "POST /attendance/ HTTP/1.1" 201 70
+WARNING 2024-11-15 17:52:34,383 log Bad Request: /attendance/
+WARNING 2024-11-15 17:52:34,384 basehttp "POST /attendance/ HTTP/1.1" 400 103
+INFO 2024-11-15 17:54:33,949 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 17:54:34,537 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:54:35,422 log Bad Request: /grades/
+WARNING 2024-11-15 17:54:36,595 log Unauthorized: /grades/
+WARNING 2024-11-15 17:54:37,186 log Bad Request: /grades/1/
+INFO 2024-11-15 17:55:50,783 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 17:55:51,384 log Unauthorized: /attendance/
+WARNING 2024-11-15 17:55:52,285 log Bad Request: /grades/
+WARNING 2024-11-15 17:55:53,464 log Unauthorized: /grades/
+WARNING 2024-11-15 17:55:54,051 log Bad Request: /grades/1/
+INFO 2024-11-15 17:58:08,281 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 17:58:18,899 basehttp "GET /grades/ HTTP/1.1" 200 454
+WARNING 2024-11-15 17:59:41,201 log Bad Request: /grades/
+WARNING 2024-11-15 17:59:41,201 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:00:07,665 log Bad Request: /grades/
+WARNING 2024-11-15 18:00:07,666 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:00:40,701 log Bad Request: /grades/
+WARNING 2024-11-15 18:00:40,701 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:01:08,569 log Bad Request: /grades/
+WARNING 2024-11-15 18:01:08,570 basehttp "POST /grades/ HTTP/1.1" 400 103
+INFO 2024-11-15 18:02:12,614 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\views.py changed, reloading.
+INFO 2024-11-15 18:02:13,075 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-15 18:02:16,060 log Bad Request: /grades/
+WARNING 2024-11-15 18:02:16,061 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:02:23,482 log Bad Request: /grades/
+WARNING 2024-11-15 18:02:23,483 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:04:19,213 log Bad Request: /grades/
+WARNING 2024-11-15 18:04:19,213 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:05:37,881 log Bad Request: /attendance/
+WARNING 2024-11-15 18:05:37,881 basehttp "POST /attendance/ HTTP/1.1" 400 108
+WARNING 2024-11-15 18:05:42,623 log Bad Request: /attendance/
+WARNING 2024-11-15 18:05:42,623 basehttp "POST /attendance/ HTTP/1.1" 400 36
+INFO 2024-11-15 18:06:06,919 views Attendance marked: Student test, Course Math 202, Status Present
+INFO 2024-11-15 18:06:06,920 basehttp "POST /attendance/ HTTP/1.1" 201 70
+WARNING 2024-11-15 18:06:38,543 log Bad Request: /grades/
+WARNING 2024-11-15 18:06:38,544 basehttp "POST /grades/ HTTP/1.1" 400 103
+WARNING 2024-11-15 18:08:46,282 log Unauthorized: /grades/
+WARNING 2024-11-15 18:08:46,282 basehttp "POST /grades/ HTTP/1.1" 401 183
+INFO 2024-11-15 18:08:56,075 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+WARNING 2024-11-15 18:09:06,852 log Bad Request: /grades/
+WARNING 2024-11-15 18:09:06,852 basehttp "POST /grades/ HTTP/1.1" 400 103
+INFO 2024-11-15 18:09:31,730 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\serializers.py changed, reloading.
+INFO 2024-11-15 18:09:32,196 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-15 18:09:39,693 log Bad Request: /grades/
+WARNING 2024-11-15 18:09:39,694 basehttp "POST /grades/ HTTP/1.1" 400 86
+INFO 2024-11-15 18:11:01,853 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-15 18:11:05,384 log Bad Request: /grades/
+WARNING 2024-11-15 18:11:05,385 basehttp "POST /grades/ HTTP/1.1" 400 86
+INFO 2024-11-15 18:11:58,345 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\serializers.py changed, reloading.
+INFO 2024-11-15 18:11:58,834 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 18:12:01,411 basehttp "POST /grades/ HTTP/1.1" 201 95
+INFO 2024-11-15 18:12:46,069 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\serializers.py changed, reloading.
+INFO 2024-11-15 18:12:46,563 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 18:13:18,146 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\serializers.py changed, reloading.
+INFO 2024-11-15 18:13:18,621 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 18:13:28,306 basehttp "POST /grades/ HTTP/1.1" 201 92
+INFO 2024-11-15 18:13:34,889 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\grades\serializers.py changed, reloading.
+INFO 2024-11-15 18:13:35,356 autoreload Watching for file changes with StatReloader
+INFO 2024-11-15 18:15:01,091 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 18:15:01,687 log Unauthorized: /attendance/
+WARNING 2024-11-15 18:15:03,763 log Unauthorized: /grades/
+WARNING 2024-11-15 18:15:04,362 log Bad Request: /grades/1/
+INFO 2024-11-15 18:16:38,968 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 18:16:39,563 log Unauthorized: /attendance/
+INFO 2024-11-15 18:16:40,456 views Grade created: Student John Doe, Course Math 101, Grade A
+WARNING 2024-11-15 18:16:41,073 log Bad Request: /grades/1/
+INFO 2024-11-15 18:17:42,829 views Attendance marked: Student John Doe, Course Math 101, Status Present
+WARNING 2024-11-15 18:17:43,431 log Unauthorized: /attendance/
+INFO 2024-11-15 18:17:44,328 views Grade created: Student John Doe, Course Math 101, Grade A
+INFO 2024-11-18 15:40:19,522 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 15:40:31,114 log Not Found: /
+WARNING 2024-11-18 15:40:31,115 basehttp "GET / HTTP/1.1" 404 3440
+WARNING 2024-11-18 15:40:31,129 log Not Found: /favicon.ico
+WARNING 2024-11-18 15:40:31,129 basehttp "GET /favicon.ico HTTP/1.1" 404 3491
+INFO 2024-11-18 15:52:09,260 basehttp "GET /auth/login HTTP/1.1" 301 0
+INFO 2024-11-18 15:52:09,263 views User on page login.html
+INFO 2024-11-18 15:52:09,304 basehttp "GET /auth/login/ HTTP/1.1" 200 1678
+INFO 2024-11-18 15:52:24,040 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+INFO 2024-11-18 15:55:29,724 basehttp "GET /courses/ HTTP/1.1" 200 415
+WARNING 2024-11-18 15:56:06,151 log Method Not Allowed: /courses/1/
+WARNING 2024-11-18 15:56:06,152 basehttp "POST /courses/1/ HTTP/1.1" 405 41
+WARNING 2024-11-18 15:56:20,531 log Method Not Allowed: /courses/1/
+WARNING 2024-11-18 15:56:20,531 basehttp "POST /courses/1/ HTTP/1.1" 405 41
+WARNING 2024-11-18 15:56:32,752 log Method Not Allowed: /courses/1/
+WARNING 2024-11-18 15:56:32,752 basehttp "POST /courses/1/ HTTP/1.1" 405 41
+WARNING 2024-11-18 15:57:12,177 log Forbidden: /students/1/
+WARNING 2024-11-18 15:57:12,177 basehttp "GET /students/1/ HTTP/1.1" 403 63
+INFO 2024-11-18 15:57:23,906 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+WARNING 2024-11-18 15:57:38,647 log Forbidden: /students/1/
+WARNING 2024-11-18 15:57:38,647 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 15:57:42,485 log Forbidden: /students/1/
+WARNING 2024-11-18 15:57:42,486 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 15:57:47,976 log Method Not Allowed: /students/1/
+WARNING 2024-11-18 15:57:47,976 basehttp "POST /students/1/ HTTP/1.1" 405 41
+WARNING 2024-11-18 15:57:54,227 log Forbidden: /students/1/
+WARNING 2024-11-18 15:57:54,228 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 15:58:13,976 log Method Not Allowed: /auth/jwt/create
+WARNING 2024-11-18 15:58:13,977 basehttp "GET /auth/jwt/create HTTP/1.1" 405 7732
+INFO 2024-11-18 15:58:14,185 basehttp "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3426
+INFO 2024-11-18 15:58:14,187 basehttp "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1152
+INFO 2024-11-18 15:58:14,190 basehttp "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+INFO 2024-11-18 15:58:14,191 basehttp "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121457
+INFO 2024-11-18 15:58:14,198 basehttp "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3796
+INFO 2024-11-18 15:58:14,207 basehttp "GET /static/rest_framework/js/load-ajax-form.js HTTP/1.1" 200 59
+INFO 2024-11-18 15:58:14,209 basehttp "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+INFO 2024-11-18 15:58:14,210 basehttp "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1793
+INFO 2024-11-18 15:58:14,211 basehttp "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1268
+INFO 2024-11-18 15:58:14,219 basehttp "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 39680
+INFO 2024-11-18 15:58:14,251 basehttp "GET /static/rest_framework/js/jquery-3.7.1.min.js HTTP/1.1" 200 87533
+INFO 2024-11-18 15:58:14,258 basehttp "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+INFO 2024-11-18 15:58:19,411 basehttp "POST /auth/jwt/create HTTP/1.1" 200 8176
+WARNING 2024-11-18 15:58:31,771 log Forbidden: /students/1/
+WARNING 2024-11-18 15:58:31,771 basehttp "GET /students/1/ HTTP/1.1" 403 63
+INFO 2024-11-18 15:58:37,971 basehttp "GET /students/ HTTP/1.1" 200 401
+WARNING 2024-11-18 15:59:22,593 log Unauthorized: /courses/1/
+WARNING 2024-11-18 15:59:22,593 basehttp "GET /courses/1/ HTTP/1.1" 401 5205
+WARNING 2024-11-18 15:59:29,700 log Unauthorized: /courses/1/
+WARNING 2024-11-18 15:59:29,701 basehttp "GET /courses/1/ HTTP/1.1" 401 5205
+WARNING 2024-11-18 15:59:31,824 log Unauthorized: /courses/1/
+WARNING 2024-11-18 15:59:31,824 basehttp "GET /courses/1/?format=json HTTP/1.1" 401 58
+INFO 2024-11-18 15:59:38,325 basehttp "GET /courses/1/ HTTP/1.1" 200 90
+WARNING 2024-11-18 15:59:45,055 log Not Found: /student/1/
+WARNING 2024-11-18 15:59:45,056 basehttp "GET /student/1/ HTTP/1.1" 404 3488
+WARNING 2024-11-18 16:00:01,574 log Forbidden: /students/1/
+WARNING 2024-11-18 16:00:01,575 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 16:00:45,654 log Forbidden: /students/1/
+WARNING 2024-11-18 16:00:45,655 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 16:01:06,073 log Not Found: /student-courses/1/
+WARNING 2024-11-18 16:01:06,073 basehttp "GET /student-courses/1/ HTTP/1.1" 404 3512
+INFO 2024-11-18 16:03:11,175 autoreload C:\Users\Dauren\PycharmProjects\Mini_Project_2\students\views.py changed, reloading.
+INFO 2024-11-18 16:03:11,681 autoreload Watching for file changes with StatReloader
+WARNING 2024-11-18 16:03:16,182 log Forbidden: /students/1/
+WARNING 2024-11-18 16:03:16,182 basehttp "GET /students/1/ HTTP/1.1" 403 63
+WARNING 2024-11-18 16:03:22,044 log Not Found: /student/1/
+WARNING 2024-11-18 16:03:22,045 basehttp "GET /student/1/ HTTP/1.1" 404 3488
+INFO 2024-11-18 16:03:27,456 basehttp "GET /students/ HTTP/1.1" 200 401
+WARNING 2024-11-18 16:03:38,302 log Forbidden: /students/test/
+WARNING 2024-11-18 16:03:38,303 basehttp "GET /students/test/ HTTP/1.1" 403 63
+INFO 2024-11-18 16:03:41,303 basehttp "GET /students/test HTTP/1.1" 301 0
+WARNING 2024-11-18 16:03:41,309 log Forbidden: /students/test/
+WARNING 2024-11-18 16:03:41,309 basehttp "GET /students/test/ HTTP/1.1" 403 63
+INFO 2024-11-18 16:03:45,155 basehttp "GET /students/1 HTTP/1.1" 301 0
+WARNING 2024-11-18 16:03:45,160 log Forbidden: /students/1/
+WARNING 2024-11-18 16:03:45,161 basehttp "GET /students/1/ HTTP/1.1" 403 63
+INFO 2024-11-18 16:03:48,423 basehttp "GET /students/ HTTP/1.1" 200 401
+INFO 2024-11-18 16:08:03,689 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2024-11-18 16:08:03,722 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2024-11-18 16:08:03,829 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4160
+INFO 2024-11-18 16:08:04,028 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2804
+INFO 2024-11-18 16:08:04,032 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2024-11-18 16:08:04,034 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22092
+INFO 2024-11-18 16:08:04,037 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2024-11-18 16:08:04,038 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2024-11-18 16:08:04,041 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 200 17972
+INFO 2024-11-18 16:08:04,046 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2024-11-18 16:08:08,828 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4321
+INFO 2024-11-18 16:08:11,358 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2024-11-18 16:08:11,389 basehttp "GET /admin/ HTTP/1.1" 200 15046
+INFO 2024-11-18 16:08:11,402 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2024-11-18 16:08:11,412 basehttp "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+INFO 2024-11-18 16:08:11,412 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2024-11-18 16:08:11,412 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2024-11-18 16:08:15,105 basehttp "GET /admin/students/student/ HTTP/1.1" 200 13332
+INFO 2024-11-18 16:08:15,127 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2024-11-18 16:08:15,128 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2024-11-18 16:08:15,137 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9097
+INFO 2024-11-18 16:08:15,139 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2024-11-18 16:08:15,143 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2024-11-18 16:08:15,147 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-18 16:08:15,148 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2024-11-18 16:08:15,150 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2024-11-18 16:08:15,156 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2024-11-18 16:08:15,168 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2024-11-18 16:08:15,265 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2024-11-18 16:08:15,287 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2024-11-18 16:08:18,616 basehttp "GET /admin/students/student/4/change/ HTTP/1.1" 200 15902
+INFO 2024-11-18 16:08:18,634 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2024-11-18 16:08:18,640 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8794
+INFO 2024-11-18 16:08:18,643 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2024-11-18 16:08:18,643 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2024-11-18 16:08:18,648 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2024-11-18 16:08:18,649 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11564
+INFO 2024-11-18 16:08:18,650 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2024-11-18 16:08:18,656 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2024-11-18 16:08:18,677 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2024-11-19 16:49:44,554 autoreload Watching for file changes with StatReloader
+INFO 2024-11-19 16:50:34,893 basehttp "POST /auth/jwt/create HTTP/1.1" 200 483
+INFO 2024-11-19 16:51:06,943 basehttp "GET /courses/ HTTP/1.1" 200 415
